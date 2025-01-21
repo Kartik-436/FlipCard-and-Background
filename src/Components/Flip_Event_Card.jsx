@@ -1,12 +1,43 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, { useEffect } from 'react'
+import gsap from 'gsap';
 
 const RedCard = (props) => {
+    const handleMouseEnter = (event) => {
+        const card = event.currentTarget;
+        gsap.to(card.querySelector('.front'), {
+            duration: 2,
+            rotateY: 180,
+            ease: "elastic.out(1,0.5)"
+        });
+        gsap.to(card.querySelector('.back'), {
+            duration: 2,
+            rotateY: 360,
+            ease: "elastic.out(1,0.5)"
+        });
+    };
+
+    const handleMouseLeave = (event) => {
+        const card = event.currentTarget;
+        gsap.to(card.querySelector('.front'), {
+            delay: 0.7,
+            duration: 2,
+            rotateY: 0,
+            ease: "elastic.out(1,0.5)"
+        });
+        gsap.to(card.querySelector('.back'), {
+            delay: 0.7,
+            duration: 2,
+            rotateY: 180,
+            ease: "elastic.out(1,0.5)"
+        });
+    };
+
     return (
         <div className='parent'>
             {/* Card */}
-            <div className='card relative inline-block w-fit'>
+            <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='card relative inline-block w-fit'>
 
                 {/* Front Card */}
                 <div className='front'>
@@ -60,10 +91,41 @@ const RedCard = (props) => {
 }
 
 const BlueCard = (props) => {
+
+    const handleMouseEnter = (event) => {
+        const card = event.currentTarget;
+        gsap.to(card.querySelector('.front'), {
+            duration: 2,
+            rotateY: 180,
+            ease: "elastic.out(1,0.5)"
+        });
+        gsap.to(card.querySelector('.back'), {
+            duration: 2,
+            rotateY: 360,
+            ease: "elastic.out(1,0.5)"
+        });
+    };
+
+    const handleMouseLeave = (event) => {
+        const card = event.currentTarget;
+        gsap.to(card.querySelector('.front'), {
+            delay: 0.7,
+            duration: 2,
+            rotateY: 0,
+            ease: "elastic.out(1,0.5)"
+        });
+        gsap.to(card.querySelector('.back'), {
+            delay: 0.7,
+            duration: 2,
+            rotateY: 180,
+            ease: "elastic.out(1,0.5)"
+        });
+    };
+
     return (
         <div className='parent'>
             {/* Card */}
-            <div className='card relative inline-block w-fit'>
+            <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='card relative inline-block w-fit'>
 
                 {/* Front Card */}
                 <div className='front'>
@@ -117,10 +179,41 @@ const BlueCard = (props) => {
 }
 
 const GreenCard = (props) => {
+
+    const handleMouseEnter = (event) => {
+        const card = event.currentTarget;
+        gsap.to(card.querySelector('.front'), {
+            duration: 2,
+            rotateY: 180,
+            ease: "elastic.out(1,0.5)"
+        });
+        gsap.to(card.querySelector('.back'), {
+            duration: 2,
+            rotateY: 360,
+            ease: "elastic.out(1,0.5)"
+        });
+    };
+
+    const handleMouseLeave = (event) => {
+        const card = event.currentTarget;
+        gsap.to(card.querySelector('.front'), {
+            delay: 0.7,
+            duration: 2,
+            rotateY: 0,
+            ease: "elastic.out(1,0.5)"
+        });
+        gsap.to(card.querySelector('.back'), {
+            delay: 0.7,
+            duration: 2,
+            rotateY: 180,
+            ease: "elastic.out(1,0.5)"
+        });
+    };
+
     return (
         <div className='parent'>
             {/* Card */}
-            <div className='card relative inline-block w-fit'>
+            <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='card relative inline-block w-fit'>
 
                 {/* Front Card */}
                 <div className='front'>
@@ -174,10 +267,41 @@ const GreenCard = (props) => {
 }
 
 const YellowCard = (props) => {
+
+    const handleMouseEnter = (event) => {
+        const card = event.currentTarget;
+        gsap.to(card.querySelector('.front'), {
+            duration: 2,
+            rotateY: 180,
+            ease: "elastic.out(1,0.5)"
+        });
+        gsap.to(card.querySelector('.back'), {
+            duration: 2,
+            rotateY: 360,
+            ease: "elastic.out(1,0.5)"
+        });
+    };
+
+    const handleMouseLeave = (event) => {
+        const card = event.currentTarget;
+        gsap.to(card.querySelector('.front'), {
+            delay: 0.7,
+            duration: 2,
+            rotateY: 0,
+            ease: "elastic.out(1,0.5)"
+        });
+        gsap.to(card.querySelector('.back'), {
+            delay: 0.7,
+            duration: 2,
+            rotateY: 180,
+            ease: "elastic.out(1,0.5)"
+        });
+    };
+
     return (
         <div className='parent'>
             {/* Card */}
-            <div className='card relative inline-block w-fit'>
+            <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='card relative inline-block w-fit'>
 
                 {/* Front Card */}
                 <div className='front'>

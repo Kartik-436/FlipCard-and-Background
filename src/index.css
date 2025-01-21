@@ -4,27 +4,29 @@
 
 .card{
   transform-style: preserve-3d;
-  transition: all 0.9s cubic-bezier(.34,1.56,.64,1);
+  /* transition: all 0.9s cubic-bezier(.34,1.56,.64,1); */
 }
 
 .front{
   backface-visibility: hidden;
-  transition: all 0.9s cubic-bezier(.34,1.56,.64,1);
+  /* transition: all 0.9s cubic-bezier(.34,1.56,.64,1); */
 }
 
 .back{
   backface-visibility: hidden;
   transform: rotateY(180deg);
-  transition: all 0.9s cubic-bezier(.34,1.56,.64,1);
+  /* transition: all 0.9s cubic-bezier(.34,1.56,.64,1); */
 }
 
+/* 
 .card:hover .front{
   transform: rotateY(180deg);
 }
 
 .card:hover .back{
   transform: rotateY(360deg);
-}
+} 
+*/
 
 .parent{
   perspective: 5000px;
