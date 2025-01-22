@@ -6,25 +6,25 @@ const Bg = () => {
     const handleMouseEnter = (event) => {
         const square = event.currentTarget;
         gsap.to(square, {
-            duration: 0.05,
+            duration: 0.13,
             backgroundColor: "#4285F4",
-            ease: "power1.in"
+            ease: "power1.inOut"
         });
     };
 
     const handleMouseLeave = (event) => {
         const square = event.currentTarget;
         gsap.to(square, {
-            delay: -0.4,
+            delay: -0.35,
             duration: 1,
-            backgroundColor: "#181818",
+            backgroundColor: "#111",
             ease: "power1.inOut"
         });
     };
 
     return (
         <React.Fragment>
-            <div className='h-screen w-screen overflow-hidden bg-[#181818]'>
+            <div className='h-screen w-screen overflow-hidden bg-[#111]'>
                 <div className='grid h-screen w-full grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] grid-rows-[repeat(auto-fit,_minmax(100px,_1fr))]'>
                     <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
                     <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
