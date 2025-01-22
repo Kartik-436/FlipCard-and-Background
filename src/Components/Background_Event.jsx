@@ -135,6 +135,38 @@ const Bg = () => {
                     <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
                     <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
                     <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='h-full w-full border-[1px] border-[#8080805f] square'></div>
                 </div>
             </div>
         </React.Fragment>
