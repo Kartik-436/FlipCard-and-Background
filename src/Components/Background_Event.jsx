@@ -6,7 +6,7 @@ const Bg = () => {
     const handleMouseEnter = (event) => {
         const square = event.currentTarget;
         gsap.to(square, {
-            duration: 0.13,
+            duration: 0.1,
             backgroundColor: "#4285F4",
             ease: "power1.inOut"
         });
