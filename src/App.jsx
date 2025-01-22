@@ -15,7 +15,7 @@ const App = () => {
 
         <div className="grid grid-cols-2 gap-10 pt-32 bg-[#151515]">
           {/* First Column */}
-          <div className="flex flex-col items-end gap-28">
+          <div className="flex flex-col items-end gap-[5vh] md:gap-28">
             <RedCard
               headUp="App"
               headDown="Development"
@@ -37,7 +37,7 @@ const App = () => {
           </div>
 
           {/* Second Column */}
-          <div className="flex flex-col gap-28">
+          <div className="flex flex-col gap-[5vh] md:gap-28">
             <BlueCard
               headUp="Frontend"
               headDown="Development"
